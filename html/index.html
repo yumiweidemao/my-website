@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shihua Cheng</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f2f2f2;
+        }
+        .jumbotron {
+            background-color: #ffffff;
+            padding: 50px 25px;
+        }
+        .fade-in-slow {
+            animation: fadeIn 3.5s;
+        }
+        .fade-in {
+            animation: fadeIn 1.5s;
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        #projectsHeader {
+            cursor: pointer;
+            color: #000000;  /* Or any color you prefer */
+        }
+        #projectsHeader:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="jumbotron text-center fade-in">
+        <h1 class="display-3">Shihua Cheng</h1>
+        <hr>
+        <div class="row justify-content-center mt-4">
+            <div class="col-6 col-md-1">
+                <a href="https://github.com/yumiweidemao" target="_blank">
+                    <img src="../images/github-logo.png" alt="Github" class="img-fluid" width="80">
+                </a>
+            </div>
+            <div class="col-6 col-md-1">
+                <a href="https://www.linkedin.com/in/shihua-cheng-691b0b249/" target="_blank">
+                    <img src="../images/linkedin-logo.png" alt="LinkedIn" class="img-fluid" width="88">
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-5 fade-in-slow">
+        <p class="mb-0">
+            Hi! I'm currently a senior student at UIUC. I'm originally from Shanghai, China. I'm majoring in Electrical Engineering so I know about electromagnetics, semiconductors, circuits, and signal processing. I also have a minor in Computer Science and have taken a lot of software engineering courses since I'm interested in programming. I can code proficiently in Python, C and C++. My favorite part in programming is not writing code itself, but the logical and structural essence of building impactful software. I like Python and C best because I can write useful code efficiently in Python, and I have all the freedom I need to write fast and memory-efficient code in C.
+        </p>
+        <br>
+        <h2>Education</h2>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="mt-4">
+                    <h5>University of Illinois at Urbana-Champaign <span class="text-muted">|</span> Undergraduate <span class="text-muted">|</span> 2020.08-2023.12 <span class="text-muted">|</span> Champaign, IL, United States</h5>
+                    <p class="mb-0">Undergraduate at UIUC, major in Electrical Engineering, minor in Computer Science.</p>
+                </div>
+                <hr>
+            </div>
+        </div>
+        <br>
+        <h2>Experience</h2>
+        <div class="row">
+            <div class="col-md-12"> 
+                <div class="mt-4">
+                    <h5>Amazon <span class="text-muted">|</span> SDE Intern <span class="text-muted">|</span> 2023.05-2023.08 <span class="text-muted">|</span> Cupertino, CA, United States</h5>
+                    <p class="mb-0">Owned a project on agricultural application of wireless mesh network, delivering soil data from farm field to AWS-IoT cloud. IoT, sensors, constrained devices, embedded systems, Sub-GHz wireless protocols.</p>
+                </div>
+                <hr>
+                <div class="mt-4">
+                    <h5>Huawei Technologies <span class="text-muted">|</span> SDE Intern <span class="text-muted">|</span> 2022.07-2022.08 <span class="text-muted">|</span> Shanghai, China</h5>
+                    <p class="mb-0">Tested network function performance of a TEE (trusted execution environment) operating system used in base stations. Network protocols, Python & bash scripts, Linux CLI commands.</p>
+                </div>
+                <hr>
+                <div class="mt-4">
+                    <h5>Festo Corporation <span class="text-muted">|</span> Embedded Software Engineer Intern <span class="text-muted">|</span> 2021.06-2021.08 <span class="text-muted">|</span> Shanghai, China</h5>
+                    <p class="mb-0">Designed and implemented a motor control algorithm on an STM32 ARM-architecture microprocessor used in electric grippers. Sensors, interrupt handling.</p>
+                </div>
+                <hr>
+            </div>
+        </div>
+        <br>
+        <h2 id="projectsHeader" data-toggle="collapse" data-target="#projectsContent">
+            Projects <span id="arrow">&#9662;</span>
+        </h2>
+        <div id="projectsContent" class="collapse">
+            <div class="row">
+                <div class="col-md-12"> 
+                    <div class="mt-4">
+                        <h5>California Road</h5>
+                        <p class="mb-0">Designed a multi-threaded implementation of Brandes' algorithm in C++ on a dataset of California roads and used graphic libraries to visualize the result.</p>
+                    </div>
+                    <hr>
+                    <div class="mt-4">
+                        <h5>4-D Parallel Convolution Optimization</h5>
+                        <p class="mb-0">Optimized a 4-d parallel convolution algorithm based on CUDA using FP16 arithmetic, tiling and CUDA streams. Achieved much better kernel and overall computation time.</p>
+                    </div>
+                    <hr>
+                    <div class="mt-4">
+                        <h5>Super Mario in SystemVerilog</h5>
+                        <p class="mb-0">Developed a simple version of Super Mario based on SystemVerilog. FPGA, VGA interface, frame buffer, USB driver.</p>
+                    </div>
+                    <hr>
+                    <div class="mt-4">
+                        <p class="mb-0">Hit my <a href="https://github.com/yumiweidemao">Github link</a> to check out these projects and more!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <h2>Contact</h2>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="mt-4">
+                    <ul>
+                        <li>Email: shihuac2@illinois.edu</li>
+                    </ul>
+                </div>
+            </div>
+        <br>
+        </div>
+    </div>
+    <br>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script>
+        $('#projectsContent').on('shown.bs.collapse', function() {
+            document.getElementById("arrow").innerHTML = "&#9652;";
+        })
+        
+        $('#projectsContent').on('hidden.bs.collapse', function() {
+            document.getElementById("arrow").innerHTML = "&#9662;";
+        })
+    </script>
+</body>
+</html>
