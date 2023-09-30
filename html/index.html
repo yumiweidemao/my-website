@@ -32,10 +32,6 @@
     </script>
 
     <script>
-    const IlliniBlue = new Float32Array([0.075, 0.16, 0.292, 1])
-    const IlliniOrange = new Float32Array([1, 0.373, 0.02, 1])
-    const IdentityMatrix = new Float32Array([1,0,0,0, 0,1,0,0, 0,0,1,0, 0,0,0,1])
-    
     /**
      * Given the source code of a vertex and fragment shader, compiles them,
      * and returns the linked program.
@@ -266,7 +262,7 @@
         document.body.style.margin = '0'
         canvas.style.width = '100vw'
         canvas.style.height = '100vh'
-        canvas.width = 800 //canvas.clientWidth
+        canvas.width = canvas.clientWidth
         canvas.height = 400 //canvas.clientHeight
         canvas.style.width = ''
         canvas.style.height = ''
