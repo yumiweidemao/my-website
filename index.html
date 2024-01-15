@@ -7,9 +7,12 @@
     <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&Fira+Sans&family=Poppins:wght@600&family=Raleway:ital,wght@1,200&family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
     <style>
         body {
             background-color: #f2f2f2;
@@ -43,100 +46,107 @@
 </head>
 <body>
     <div class="jumbotron text-center fade-in">
-        <h1 class="display-3">Shihua Cheng</h1>
+        <h1 class="name">Shihua Cheng</h1>
         <hr>
-        <div class="row justify-content-center mt-4">
-            <div class="col-6 col-md-1">
+        <div class="row justify-content-center">
+            <div class="col-4"></div>
+            <div class="col-2">
                 <a href="https://github.com/yumiweidemao" target="_blank">
-                    <img src="images/github-logo.png" alt="Github" class="img-fluid" width="80">
+                    <img src="images/github-logo.png" alt="Github" class="img-fluid" width="50">
                 </a>
             </div>
-            <div class="col-6 col-md-1">
+            <div class="col-2">
                 <a href="https://www.linkedin.com/in/shihua-cheng-691b0b249/" target="_blank">
-                    <img src="images/linkedin-logo.png" alt="LinkedIn" class="img-fluid" width="88">
+                    <img src="images/linkedin-logo.png" alt="LinkedIn" class="img-fluid" width="50">
                 </a>
             </div>
+            <div class="col-4"></div>
         </div>
     </div>
-    <div class="container mt-5 fade-in-slow">
-        <p class="mb-0">
+    <div class="container fade-in-slow">
+        <h4 class="title">About me</h4>
+        <p class="mb-0 description">
             Hi! I'm currently a senior student at UIUC. I'm originally from Shanghai, China. I'm majoring in Electrical Engineering so I know about electromagnetics, circuits and analog/digital signal processing. I also have a minor in Computer Science and have taken a lot of software engineering courses since I'm interested in programming. I can code proficiently in Python, C and C++. I like Python and C best because I can write useful code efficiently in Python, and I have all the freedom I need to write fast and memory-efficient code in C.
         </p>
         <br>
-        <p class="mb-0">
+        <p class="mb-0 description">
             I'm a quick and enthusiastic learner. I'm always curious about how things work and I'm open to new ideas. I think a lot.
         </p>
         <br>
-        <h2>Education</h2>
+        <h4 class="title">Education</h4>
         <div class="row">
             <div class="col-md-12">
                 <div class="mt-4">
-                    <h5>University of Illinois at Urbana-Champaign <span class="text-muted">|</span> Undergraduate <span class="text-muted">|</span> 2020.08-2023.12 <span class="text-muted">|</span> Champaign, IL, United States</h5>
-                    <p class="mb-0">Undergraduate at UIUC, major in Electrical Engineering, minor in Computer Science. GPA: 3.90/4.00</p>
+                    <h5 class="subtitle">University of Illinois at Urbana-Champaign</h5>
+                    <h6 class="subsubtitle">Bachelor of Science in Electrical Engineering <span class="text-muted">|</span> 2020.08-2023.12</h6>
+                    <p class="mb-0 description">Major in Electrical Engineering, minor in Computer Science. GPA: 3.90/4.00</p>
                 </div>
                 <hr>
             </div>
         </div>
         <br>
-        <h2>Experience</h2>
+        <h4 class="title">Work Experience</h4>
         <div class="row">
             <div class="col-md-12"> 
                 <div class="mt-4">
-                    <h5>Amazon <span class="text-muted">|</span> SDE Intern <span class="text-muted">|</span> 2023.05-2023.08 <span class="text-muted">|</span> Cupertino, CA, United States</h5>
-                    <p class="mb-0">Took ownership of a project on the agricultural application of wireless mesh networks, using IoT and sensor technology to gather and deliver crucial soil data from remote farm fields to AWS-IoT cloud for data-driven farming decisions.</p>
+                    <h5 class="subtitle">SDE Intern @ Amazon</h5>
+                    <h6 class="subsubtitle">2023.05-2023.08 <span class="text-muted">|</span> Cupertino, CA, United States</h6>
+                    <p class="mb-0 description">Took ownership of a project on the agricultural application of wireless mesh networks, using IoT and sensor technology to gather and deliver crucial soil data from remote farm fields to AWS-IoT cloud for data-driven farming decisions.</p>
                     <br>
-                    <p class="mb-0">Involved working with constrained devices and embedded systems, utilizing understanding of sub-GHz wireless standards and network protocols to ensure effective data transmission and improve network reliability.
+                    <p class="mb-0 description">Involved working with constrained devices and embedded systems, utilizing understanding of sub-GHz wireless standards and network protocols to ensure effective data transmission and improve network reliability.
                     </p>
                 </div>
                 <hr>
                 <div class="mt-4">
-                    <h5>Huawei Technologies <span class="text-muted">|</span> SDE Intern <span class="text-muted">|</span> 2022.07-2022.08 <span class="text-muted">|</span> Shanghai, China</h5>
-                    <p class="mb-0">Tested network function performance of a TEE (trusted execution environment) operating system used in base stations. Network protocols, Python & bash scripts, Linux CLI commands.</p>
+                    <h5 class="subtitle">SDE Intern @ Huawei</h5>
+                    <h6 class="subsubtitle">2022.07-2022.08 <span class="text-muted">|</span> Shanghai, China</h6>
+                    <p class="mb-0 description">Tested network function performance of a TEE (trusted execution environment) operating system used in base stations. Network protocols, Python & bash scripts, Linux CLI commands.</p>
                 </div>
                 <hr>
                 <div class="mt-4">
-                    <h5>Festo Corporation <span class="text-muted">|</span> Embedded Software Engineer Intern <span class="text-muted">|</span> 2021.06-2021.08 <span class="text-muted">|</span> Shanghai, China</h5>
-                    <p class="mb-0">Designed and implemented a 3-phase motor control algorithm on an STM32 ARM-architecture microprocessor used in electric grippers. Sensors, interrupt handling.</p>
+                    <h5 class="subtitle">SDE Intern @ Festo Corporation</h5>
+                    <h6 class="subsubtitle">2021.06-2021.08 <span class="text-muted">|</span> Shanghai, China</h6>
+                    <p class="mb-0 description">Designed and implemented a 3-phase motor control algorithm on an STM32 ARM-architecture microprocessor used in electric grippers. Sensors, interrupt handling.</p>
                 </div>
                 <hr>
             </div>
         </div>
         <br>
-        <h2 id="projectsHeader" data-toggle="collapse" data-target="#projectsContent">
+        <h4 id="projectsHeader" data-toggle="collapse" data-target="#projectsContent" class="title">
             Projects <span id="arrow">&#9662;</span>
-        </h2>
+        </h4>
         <div id="projectsContent" class="collapse">
             <div class="row">
                 <div class="col-md-12"> 
                     <div class="mt-4">
-                        <h5>Multi-threaded Implementation of Brandes’ Algorithm on California Road Dataset</h5>
-                        <p class="mb-0">Designed a multi-threaded implementation of Brandes' algorithm in C++ using a dataset of California roads, improving efficiency in road network analysis. Utilized graphic libraries to visualize the results.</p>
+                        <h5 class="subtitle">Multi-threaded Implementation of Brandes’ Algorithm on California Road Dataset</h5>
+                        <p class="mb-0 description">Designed a multi-threaded implementation of Brandes' algorithm in C++ using a dataset of California roads, improving efficiency in road network analysis. Utilized graphic libraries to visualize the results.</p>
                     </div>
                     <hr>
                     <div class="mt-4">
-                        <h5>4-D Parallel Convolution Optimization</h5>
-                        <p class="mb-0">Optimized a 4-d parallel convolution algorithm based on CUDA using FP16 arithmetic, tiling and CUDA streams, achieving much better kernel and overall computation time.</p>
+                        <h5 class="subtitle">4-D Parallel Convolution Optimization</h5>
+                        <p class="mb-0 description">Optimized a 4-d parallel convolution algorithm based on CUDA using FP16 arithmetic, tiling and CUDA streams, achieving much better kernel and overall computation time.</p>
                     </div>
                     <hr>
                     <div class="mt-4">
-                        <h5>Super Mario in SystemVerilog</h5>
-                        <p class="mb-0">Developed a simplified version of the popular game Super Mario using SystemVerilog, incorporating FPGA, VGA interface, frame buffer, and USB driver in the design.</p>
+                        <h5 class="subtitle">Super Mario in SystemVerilog</h5>
+                        <p class="mb-0 description">Developed a simplified version of the popular game Super Mario using SystemVerilog, incorporating FPGA, VGA interface, frame buffer, and USB driver in the design.</p>
                     </div>
                     <hr>
                     <div class="mt-4">
-                        <p class="mb-0">Hit my <a href="https://github.com/yumiweidemao">Github link</a> to check out these projects and more!</p>
+                        <p class="mb-0 description">Hit my <a href="https://github.com/yumiweidemao">Github link</a> to check out these projects and more!</p>
                     </div>
                 </div>
             </div>
         </div>
         <br>
         <br>
-        <h2>Contact</h2>
+        <h4 class="title">Contact</h4>
         <div class="row">
             <div class="col-md-12">
                 <div class="mt-4">
                     <ul>
-                        <li>Email: shihuac2@illinois.edu</li>
+                        <li class="description">Email: shihuac2@illinois.edu</li>
                     </ul>
                 </div>
             </div>
