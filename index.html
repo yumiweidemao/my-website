@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&family=Fira+Sans&family=Montserrat&family=Poppins:wght@600&family=Roboto+Condensed:wght@100&family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Ubuntu:wght@300&family=Fira+Sans&family=Montserrat&family=Poppins:wght@600&family=Roboto+Condensed:wght@100&family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <style>
@@ -66,49 +66,77 @@
     <div class="row">
         <div class="col-sm-0 col-md-2 col-lg-2"></div>
         <div class="col-sm-12 col-md-8 col-lg-8">
+            <img src="images/my_photo.jpg" class="rounded mx-auto d-block" alt="my photo" width=20%>
             <div class="container fade-in-slow">
-                <h4 class="title">About me</h4>
+                <h4 class="mt-3 title">About me</h4>
                 <div class="mt-3"></div>
-                <p class="mb-0 description">
-                    Hi! I'm currently a senior student at UIUC. I'm originally from Shanghai, China. I'm majoring in Electrical Engineering so I know about electromagnetics, circuits and analog/digital signal processing. I also have a minor in Computer Science and have taken a lot of software engineering courses since I'm interested in programming. I can code proficiently in Python, C and C++. I like Python and C best because I can write useful code efficiently in Python, and I have all the freedom I need to write fast and memory-efficient code in C.
+                <p class="description">
+                    Hi! I'm Shihua. Welcome to my website. I'm an Illinois ECE graduate and I currently work at Amazon as a software developer. Here are some basic facts about me:
+                </p>
+                <table class="table table-striped description">
+                    <tr>
+                        <th scope="row">Hometown</th>
+                        <td>Shanghai, China</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">I like...</th>
+                        <td>To learn, to build, video games, hiking, food, my wife</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Languages</th>
+                        <td>Chinese, English, Shanghainese, C, C++, Python</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Favorite Area in Tech</th>
+                        <td>Embedded & Networked Systems</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Favorite Video Game</th>
+                        <td>Hearthstone</td>
+                    </tr>
+                </table>
+                <p class="description">
+                    I feel consistently inspired by the potential of small, low-power chips and wireless technologies. With the improvements in both hardware and software, I envision a future where things are interconnected and automated. Outside of work and study, I enjoy spending time with my family. I also like to explore new places.
                 </p>
                 <br>
-                <p class="mb-0 description">
-                    I'm a quick and enthusiastic learner. I'm always curious about how things work and I'm open to new ideas. I think a lot.
-                </p>
-                <br>
-                <h4 class="title mt-2">Education</h4>
+                <h4 class="mt-1 title">Education</h4>
                 <div class="row">
                     <div class="col-md-12">
                         <div class="mt-3">
                             <h5 class="subtitle">University of Illinois at Urbana-Champaign</h5>
                             <h6 class="subsubtitle">Bachelor of Science in Electrical Engineering <span class="text-muted">|</span> 2020.08-2023.12</h6>
-                            <p class="mb-0 description">Major in Electrical Engineering, minor in Computer Science. GPA: 3.90/4.00</p>
+                            <p class="mb-0 description">Major in Electrical Engineering, minor in Computer Science.</p>
+                            <p class="mb-0 description">GPA: 3.90/4.00</p>
                         </div>
                         <hr>
                     </div>
                 </div>
-                <h4 class="title mt-2">Work Experience</h4>
+                <br>
+                <h4 class="title">Work Experience</h4>
                 <div class="row">
-                    <div class="col-md-12"> 
+                    <div class="col-md-12">
+                        <div class="mt-3">
+                            <h5 class="subtitle">Software Developer @ Amazon</h5>
+                            <h6 class="subsubtitle">2024.04 - 20??.?? <span class="text-muted">|</span> Sunnyvale, CA, United States</h6>
+                            <p class="mb-0 description">Looking forward to new explorations...</p>
+                        </div>
+                        <hr>
                         <div class="mt-3">
                             <h5 class="subtitle">SDE Intern @ Amazon</h5>
-                            <h6 class="subsubtitle">2023.05-2023.08 <span class="text-muted">|</span> Cupertino, CA, United States</h6>
-                            <p class="mb-0 description">Took ownership of a project on the agricultural application of wireless mesh networks, using IoT and sensor technology to gather and deliver crucial soil data from remote farm fields to AWS-IoT cloud for data-driven farming decisions.</p>
-                            <br>
-                            <p class="mb-0 description">Involved working with constrained devices and embedded systems, utilizing understanding of sub-GHz wireless standards and network protocols to ensure effective data transmission and improve network reliability.
+                            <h6 class="subsubtitle">2023.05 - 2023.08 <span class="text-muted">|</span> Cupertino, CA, United States</h6>
+                            <p class="mb-0 description">Worked on a project on a wireless mesh network for an agriculture application. Worked with constrained devices, embedded systems, sub-GHz wireless standards, and network protocols.
                             </p>
                         </div>
                         <hr>
                         <div class="mt-3">
                             <h5 class="subtitle">SDE Intern @ Huawei</h5>
-                            <h6 class="subsubtitle">2022.07-2022.08 <span class="text-muted">|</span> Shanghai, China</h6>
+                            <h6 class="subsubtitle">2022.07 - 2022.08 <span class="text-muted">|</span> Shanghai, China</h6>
                             <p class="mb-0 description">Tested network function performance of a TEE (trusted execution environment) operating system used in base stations. Network protocols, Python & bash scripts, Linux CLI commands.</p>
                         </div>
                         <hr>
                         <div class="mt-3">
                             <h5 class="subtitle">SDE Intern @ Festo Corporation</h5>
-                            <h6 class="subsubtitle">2021.06-2021.08 <span class="text-muted">|</span> Shanghai, China</h6>
+                            <h6 class="subsubtitle">2021.06 - 2021.08 <span class="text-muted">|</span> Shanghai, China</h6>
                             <p class="mb-0 description">Designed and implemented a 3-phase motor control algorithm on an STM32 ARM-architecture microprocessor used in electric grippers. Sensors, interrupt handling.</p>
                         </div>
                         <hr>
@@ -149,7 +177,8 @@
                     <div class="col-md-12">
                         <div class="mt-4">
                             <ul>
-                                <li class="description">Email: shihuac2@illinois.edu</li>
+                                <li class="description">Email: [last name][first name]70@gmail.com</li>
+                                <li class="description">Battle.net ID: DrNight#11107 (I play Hearthstone and Diablo IV)</li>
                             </ul>
                         </div>
                     </div>
